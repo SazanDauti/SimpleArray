@@ -17,23 +17,20 @@ Initialize the class
 $s = new SimpleArray;
 ```
 
+Load an existing array
 ```php
-//Load an existing array
 $exArray = array("The", "is", "a", "quick", "example", "of", "loading", "an", "array");
 $s->addArray($exArray);
+```
 
-//Manually add values
-$s->add("you");
-$s->add("can");
-$s->add("also");
-$s->add("Manually");
-$s->add("add");
-$s->add("values");
-
-/*
+Manually add values
+```php
+$s->add("example");
+```
 Add array value to certain key
+```php
 $s->addI(key, value);
-
+```
 Set array values by key
 $s->set(key, value);
 
