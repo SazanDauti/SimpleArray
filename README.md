@@ -7,12 +7,17 @@ Simple Array class for PHP
 
 SimpleArray has many great features. You can add, change, remove, set, find values in an array.
 
+Require the class file
 ```php
-//Require class file
 require "simplearray.class.php";
+```
 
+Initialize the class
+```php
 $s = new SimpleArray;
+```
 
+```php
 //Load an existing array
 $exArray = array("The", "is", "a", "quick", "example", "of", "loading", "an", "array");
 $s->addArray($exArray);
