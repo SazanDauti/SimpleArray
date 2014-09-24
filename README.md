@@ -61,7 +61,7 @@ Get array value from key
 $s->get(key);
 ```
 
-Get an array with all keys that match a certain value
+Get an array with all keys that match a certain value (returns an array)
 ```php
 $s->getV(value);
 ```
