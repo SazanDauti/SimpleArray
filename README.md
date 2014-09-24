@@ -32,32 +32,46 @@ Add array value to certain key
 $s->addI(key, value);
 ```
 Set array values by key
+```php
 $s->set(key, value);
+```
 
 Change certain array values
+```php
 $s->change(value);
+```
 
 Remove array value by key
+```php
 $s->remove(key);
+```
 
 Remove certain array values
+```php
 $s->removeV(value);
+```
 
 Get size of the array
+```php
 $s->size();
+```
 
 Get array value from key
+```php
 $s->get(key);
+```
 
 Get an array with all keys that match a certain value
+```php
 $s->getV(value);
+```
 
 Clear an array
+```php
 $s->clear();
-*/
+```
 
-//Get the final array
+Get the final array
+```php
 $finalArray = $s->arr();
-
-echo "<pre>";
-print_r($finalArray);
+```
